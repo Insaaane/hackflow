@@ -1,0 +1,31 @@
+:root {
+  /* color: #1f1f1f; */
+  background-color: #f4f4f4;
+  font-weight: normal;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.no-border-label {
+  border: none !important;
+  box-shadow: none !important;
+}
+.hidden-label-tag {
+  flex-shrink: 0;
+  border: none;
+  visibility: hidden;
+}
+
+.more-label {
+  flex-shrink: 0;
+}
+
+.modal {
+  background-color: transparent !important;
+}
